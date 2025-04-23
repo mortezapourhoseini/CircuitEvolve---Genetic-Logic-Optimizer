@@ -16,16 +16,17 @@ This project automatically designs efficient digital circuits using evolutionary
 ## Usage 
 1. Prepare a truth table file (see example format below)
 2. Run the program:
+   
    ```bash
    python circuit_evolve.py
    ```
-3. Follow interactive prompts to:
+4. Follow interactive prompts to:
    - Specify truth table file path
    - Set algorithm parameters (or use defaults)
    - View optimized circuit structure
    - Verify performance against truth table
 
-## Truth Table Format 📝
+## Truth Table Format 
 Create a text file with one entry per line:  
 `[input_bits] [output]`  
 Example (`example.txt`):
@@ -40,7 +41,7 @@ Example (`example.txt`):
 111 1
 ```
 
-## Key Parameters ⚙️
+## Key Parameters 
 | Parameter         | Default | Description                          |
 |-------------------|---------|--------------------------------------|
 | Number of Layers  | 3       | Circuit depth                        |
@@ -49,7 +50,7 @@ Example (`example.txt`):
 | Generations       | 200     | Maximum evolution iterations         |
 | Mutation Rate     | 10%     | Probability of mutations             |
 
-## Sample Output 🖥️
+## Sample Output 
 ```
 Optimized Circuit Structure:
 Layer 0:
